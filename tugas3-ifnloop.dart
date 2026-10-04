@@ -87,7 +87,6 @@ num jumlah = int.parse(inputUser1) + int.parse(inputUser2) + int.parse(inputUser
   stdout.write('tebak angka antara 0 sampai 5: ');
   int tebakan = int.parse(stdin.readLineSync()!);
 
-  // 3. Program memeriksa hasil tebakan pengguna
   if (tebakan == angkarandom) {
     print('Angka yang ditebak benar');
   } else {
